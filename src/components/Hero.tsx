@@ -39,10 +39,9 @@ export function Hero({ onOpenMenu, onOpenReserve }: Props) {
         </h1>
 
         <div className="mt-8 flex items-center gap-4 text-cream-mute text-xs uppercase tracking-[0.3em]">
-          <div className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-gold mb-6 animate-fade">
-          <span className="h-px w-12 bg-cream/30" />
-          <span>Est. 2024</span>
-          <span className="h-px w-12 bg-cream/30" />
+        <span className="h-px w-12 bg-cream/30" />
+        <span className="text-gold">Est. 2024</span>
+        <span className="h-px w-12 bg-cream/30" />
         </div>
 
         <p className="font-display italic text-cream text-xl md:text-2xl lg:text-3xl mt-10 max-w-xl leading-relaxed animate-fade">
