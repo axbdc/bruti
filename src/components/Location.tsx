@@ -18,18 +18,6 @@ export function Location() {
           <div className="md:col-span-5 reveal order-2 md:order-1 space-y-10">
             <div>
               <div className="text-[10px] uppercase tracking-[0.3em] text-cream-mute mb-3">
-                {t.visit.phoneLabel}
-              </div>
-              <a
-                href="tel:+351217250001"
-                className="font-display text-2xl text-cream hover:text-gold transition-colors"
-              >
-                +351 217 250 001
-              </a>
-            </div>
-
-            <div>
-              <div className="text-[10px] uppercase tracking-[0.3em] text-cream-mute mb-3">
                 {t.visit.hoursTitle}
               </div>
               <ul className="space-y-1.5 text-cream">
