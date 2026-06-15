@@ -22,7 +22,7 @@ import { useLang } from "../context/LanguageContext";
 // ───── Configuração ─────
 const DIGIN_WIDGET_READY = false;                 // <- pôr true quando o snippet estiver colado
 const DIGIN_WIDGET_SRC = "";                       // <- colar aqui o URL do iframe do Dig In
-const DIGIN_RESERVE_URL = "https://www.dig-in.pt/restaurante/bruti"; // <- fallback (Opção A): link real do perfil
+const DIGIN_RESERVE_URL = "https://www.dig-in.pt/r/30021241/bruti-ristorante-pizzeria-campolide"; // <- fallback (Opção A): link real do perfil
 const PHONE = "+351217250001";
 const PHONE_DISPLAY = "+351 217 250 001";
 
